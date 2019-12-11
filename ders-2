@@ -1,0 +1,66 @@
+<!--LISTELER-->
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+         <title>DERS 2</title>
+    </head>
+    <body bgcolor=#CD5C5C>
+        <font size="5">
+            <h3> <p align="center">LISTELER</p></h3>   
+            <div>
+                <p align="center">
+                    <a>Alt alta yazılmış şeylerin bütünü,çizelge.</a>
+                    <a>Kullanabileceğimiz üç tür liste vardır. 
+                        1-Unordered List(UL: Sırasız Liste)
+                        2-Ordered List(OL: Sıralı Liste)
+                        3-Description List(DL: Tanım Listesi)
+                    </a>
+                </p>
+            </div>
+            <div>
+                <ol><!--Alt alta 1,2,3 şeklinde sıralı liste oluşturmak için kullanırız-->
+                    <li><!--Listenin her bir öğesini oluşturmak için kullanıyoruz.-->
+                        SICAK ICECEKLER
+                        <ol type="I"><!--Sıralama öğeleri sadece sayı olmak zorunda değildir.-->
+                            <li>CAY</li>
+                            <li>KAHVE</li>
+                               <ol type="a">
+                               <li>Türk Kahvesi</li>
+                               <li>Latte</li>
+                               </ol>
+                            <li>SICAK CIKOLATA</li>
+                    </li>
+                     <li>
+                         SOGUK ICECEKLER
+                         <ol>
+                             <li>MEYVE SULARI
+                                 <ul><!--Sırasız liste için kullanılır.-->
+                                    <li>Vişne</li>
+                                    <li>Kayısı</li>
+                                 </ul>
+                            </li>
+                            <li>LIMONATA</li>
+                         </ol>
+                     </li>
+                </ol>
+            </div>
+            <div>
+                <table border="5" cellpadding="10" bgcolor=#cccccc>
+                    <tr height="120">
+                        <th>ISIM</th>
+                        <th>SOYISIM</th>
+                    </tr>
+                    <tr>
+                        <td>Necla</td>
+                        <td>RUZGAR</td>
+                    </tr>
+                    <tr bgcolor="firebrick">
+                        <th colspan="2">Selen TANJU</th>
+                    </tr>
+                    <!--rowspan satırları birleştimemize yarıyor.-->
+                    <!--colspan sütunları birleştirmemize yarıyor.-->
+                </table>
+            </div>
+    </body>
+</html>
